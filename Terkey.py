@@ -29,7 +29,7 @@ if __name__=='__main__':
     t = td(target=setup)
     t.start()
     while t.is_alive():
-        for i in "-\|/-\|/":
+        for i in "SULSYH —\|/—\|/":
             print('\rPlease wait '+i+' ',end="",flush=True)
             sleep(0.1)
     banner()
